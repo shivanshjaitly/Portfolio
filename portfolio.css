@@ -1,0 +1,543 @@
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center ;
+    width: 100%;
+    height: 100vh;
+    font-size: 35px;
+
+    
+
+}
+.pjct{
+    font-size: 30px;
+    margin: 31px 4px;
+}
+body{
+    background-color: black;
+    color: blanchedalmond;
+    box-sizing: border-box;
+   
+}
+
+#project{
+   
+    background-image: url(bproject.jpg);
+    background-size: auto;
+    height: 100%;
+    overflow: none;
+}
+#trib{
+   
+    width: 34%;
+    margin: 1px 1px;
+    padding: 1px 1px;
+  
+}
+.project-tile{
+    height: 30%;
+    width: 100%;
+
+}
+#survey{
+    width: 31%;
+    margin: 1px 1px;
+    padding: 1px 1px;
+
+}
+#mod3{
+    width: 33%;
+    margin: 1px 1px;
+    padding: 1px 1px;
+}
+
+#mod4{
+    width: 35%;
+    margin: 23px 60px;
+}
+#modu5{
+    width: 35%;
+    margin: 31px 11px;
+  
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 101, 188);
+    background-image: linear-gradient( rgb(83, 81, 212) , rgb(228, 205, 205));
+    
+}
+.ame{
+    font-family: monospace ;
+    font-size: 55px;
+}
+#boxaboutme{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(221, 120, 206);
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 10%;
+    font-family: 'Grenze Gotisch', cursive;
+}
+.boxabout{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    width: 62%;
+    color: rgb(253, 250, 250);
+}
+.crsera{
+    width: 100%;
+    background-position: center;
+    height: 40%;
+    
+}
+span{
+    text-align: center;
+    background-color: teal;
+    color: whitesmoke;
+    justify-content: center;
+    
+    display: flex;
+    flex-direction: column;
+}
+#certificates11{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    margin-left: 12px;
+    font-size: 25px;
+   
+}
+
+#box1{
+    background-image: linear-gradient(rgb(236, 185, 185) , rgb(174, 235, 174));
+    
+    width: 20%;
+    margin: 3px 22px;
+    box-sizing: border-box;
+   
+}
+#box2{
+    background-image: linear-gradient(rgb(236, 185, 185) , rgb(174, 235, 174));
+    box-shadow: rgb(143, 170, 192);
+    width: 20%;
+    margin: 3px 22px;
+    box-sizing: border-box;
+   
+
+}
+#box3{
+    background-image: linear-gradient(rgb(236, 185, 185) , rgb(174, 235, 174));
+    box-shadow: rgb(143, 170, 192);
+    width: 20%;
+    margin:3px 22px;
+    box-sizing: border-box;
+   
+
+}
+#box4{
+    background-image: linear-gradient(rgb(236, 185, 185) , rgb(174, 235, 174));
+    box-shadow: rgb(143, 170, 192);
+    width: 20%;
+    margin:3px 22px;
+    box-sizing: border-box;
+   
+}
+
+.certificatepara{
+    
+    color: rgb(104, 79, 79);
+    font-family: 'Dancing Script', cursive;
+}
+.heading{
+    font-size: 40px;
+     color: rgb(238, 13, 219); 
+   justify-content: center ;
+    text-align: center ;
+}
+.pjct{
+    font-size: 40px;
+    color: rgb(28, 218, 69); 
+     justify-content: center ;
+        text-align: center ;
+}
+#aboutme{
+    height: 100vh;
+    background-image: linear-gradient(rgb(197, 84, 84) , rgb(84, 84, 238), rgb(92, 201, 92));
+}
+.abtme{
+    font-size: 40px;
+    color: rgb(13, 155, 238); 
+  justify-content: center ;
+   text-align: center ;
+}
+.abtt{
+    width: 55%;
+    justify-content: center;
+    display: flex;
+    float: right;
+    border-radius: 120px;
+}
+.apne{
+    display: flex;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-size: 30px;
+width: 40%;
+color: rgb(86, 255, 71);
+border: 2px solid rgb(236, 214, 214);
+
+}
+#testimonial{
+    height: 80vh;
+    background-color: white;
+background-image: linear-gradient(rgb(46, 42, 42) , rgb(239, 239, 248));
+
+   
+    
+}
+.testhead{
+    font-family: 'Bebas Neue', cursive;
+font-size: 45px;
+color:whitesmoke;
+display: flex;
+justify-content: center;
+
+}
+.testimonialtechers{
+    width: 200px;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+font-size: 30px; 
+color: rgb(75, 2, 2);
+border: 2px solid white;
+margin-top: 1px;
+box-shadow: 10px 18px 23px 16px #499fd1;
+}
+.testimonialanantsir{
+    
+    border-radius: 33%;
+    width: 200px;
+    float: left;
+ background-position: center;
+ padding: 73px 61px;
+    
+}
+.anantsir{
+    box-sizing: border-box;
+    width: 180px;
+    background-image: linear-gradient(rgb(226, 183, 183) , rgb(205, 211, 170));
+    display: flex;
+    color: rgb(20, 20, 20);
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Ranchers', cursive;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 16px;
+   
+}
+/* .testimonialankursir{
+    border-radius: 33%;
+    width: 200px;
+    float: left;
+ background-position: center;
+ padding: 43px 26px;
+}
+.ankursir{
+    box-sizing: border-box;
+    width: 180px;
+    background-image: linear-gradient(rgb(226, 183, 183) , rgb(205, 211, 170));
+    display: flex;
+    color: rgb(20, 20, 20);
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Ranchers', cursive;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 16px;
+   
+}
+.testimonialtechers1{
+    width: 200px;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+font-size: 30px; 
+color: rgb(238, 109, 109);
+border: 2px solid rgb(215, 224, 80);
+margin-top: 1px;
+} */
+
+#contactme{
+    height: 100vh;
+    background-image: url(phone.jpg);
+    opacity: 2;
+}
+.contacthead{
+    font-size: 45px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(65, 71, 5);
+}
+.mycontact{
+    font-size: 20px;
+}
+.addressinfo{
+    font-size: 30px;
+    color: rgb(235, 81, 107);
+
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(229, 236, 240);
+    
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(226, 26, 19);
+    background-color: rgb(12, 12, 12);
+}
+
+.sappage{
+    text-decoration: none;
+    background-color: rgb(237, 248, 248);
+    color: rgb(126, 3, 3);
+    margin: 122px;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+   
+}
+#box12{
+    width: 25%;
+    border: 1px solid rgb(127, 45, 221);
+    box-shadow: 10px 18px 23px 16px #51308f;
+    display: flex;
+    float: right;
+}
+#contri{
+   float: right;
+
+}
+
+.sambass{
+    color: rgb(49, 9, 3);
+    font-size: 35px;
+}
+.stuamb{
+    font-size: 28px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(43, 2, 77);
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px)
+{
+#welcome-section{
+    font-size: 20px;
+    width: fit-content;
+    height: auto;
+    
+    margin: 100px;
+}
+.ame{
+    font-size: 38px;
+    width: fit-content;
+    height: auto;
+    margin: 61px;
+}
+#boxaboutme{
+    font-size: 16px;
+    font-weight: bold;
+}
+.boxabout{
+    font-size: 15px;
+    font-weight: bold;
+    width: 48%;
+}
+.pjct {
+    font-size: 19px;
+}
+.project-tile {
+   
+    width: 116%;
+}
+.heading {
+    font-size: 30px;
+}
+#box1{
+    font-size: 15px;
+    width: 244px;
+    height: 55%;
+}
+#box2{
+    font-size: 17px;
+    width: 244px;
+    height: 55%;
+}
+#box3{
+    font-size: 17px;
+    width: 244px;
+    height: 55%;
+}
+#box4{
+    font-size: 17px;
+    width: 244px;
+    height: 55%;
+}
+h2{
+    font-size: 19px;
+}
+.apne {
+    font-size: 20px;
+}
+.abtt {
+    width: 51%;
+}
+.testimonialtechers {
+    font-size: 25px;
+}
+.sambass {
+    font-size: 18px;
+}
+.stuamb {
+    font-size: 15px;
+}.sappage {
+     margin: 27px;
+   font-size: 16px;
+}
+#survey {
+    width: 31%;
+    margin: 1px 8px;
+    padding: 1px 4px;
+}
+#trib {
+    width: 34%;
+    margin: 0px 9px;
+    padding: 1px 2px;
+}
+#mod3 {
+    width: 33%;
+    margin: 30px 13px;
+    padding: 3px 2px;
+}
+#mod4 {
+    width: 33%;
+    margin: 24px 19px;
+    padding: 1px 0px;
+}
+#modu5 {
+    width: 37%;
+    margin: 4px 114px;
+    padding: 1px;
+}
+}
+
+@media (min-width: 768px)  and (max-width:991px)
+{
+   
+    #welcome-section{
+        font-size: 40px;
+    }
+    #survey {
+        width: 31%;
+        margin: 2px -38px;
+        padding: 1px 4px;
+    }
+    #trib {
+        width: 34%;
+        margin: 6px 114px;
+        
+    }
+    #mod3 {
+        width: 33%;
+        margin: 41px 118px;
+        padding: 3px 2px;
+    }
+    #mod4 {
+        width: 33%;
+        margin: 18px -30px;
+        padding: 1px 0px;
+    }
+    #modu5 {
+        width: 41%;
+        margin: 16px 274px;
+        padding: 1px;
+    }
+    #project{
+        background-image: linear-gradient(rgb(221, 52, 52) , rgb(212, 100, 134), white);
+    }
+    h2{
+        font-size: 22px;
+    }
+    #box1{
+        font-size: 15px;
+        width: 244px;
+        height: 55%;
+    }
+    #box2{
+        font-size: 17px;
+        width: 244px;
+        height: 55%;
+    }
+    #box3{
+        font-size: 17px;
+        width: 244px;
+        height: 55%;
+    }
+    #box4{
+        font-size: 17px;
+        width: 244px;
+        height: 55%;
+    }
+    .pjct {
+        font-size: 22px;
+    }
+    #boxaboutme{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .apne {
+        font-size: 24px;
+    }
+    .sambass {
+        font-size: 20px;
+    }
+    .stuamb {
+        font-size: 16px;
+    }.sappage {
+         margin: 28px;
+       font-size: 18px;
+    }
+    #contri{
+        width: 200px;
+        font-size: 25px;
+   
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+    float:  left;
+    margin
+   
+  
+}
+  
+
+          
+           
+}
+
