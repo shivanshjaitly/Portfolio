@@ -5,7 +5,7 @@
     text-align: center ;
     width: 100%;
     height: 100vh;
-    font-size: 40px;
+    font-size:40px;
     background-image: url(main.jpg);
     background-repeat: no-repeat;
     background-size: 270%;
@@ -517,7 +517,7 @@ a {
     font-size: 15px;
 }
 .stuamb {
-    font-size: 15px;
+    font-size: 14px;
     width: 100%;
 }
 .mycontact {
@@ -549,7 +549,7 @@ a {
 {
    
     #welcome-section{
-        font-size: 40px;
+        
         height: 100%;
     }
     #survey {
