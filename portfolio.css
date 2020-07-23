@@ -5,7 +5,11 @@
     text-align: center ;
     width: 100%;
     height: 100vh;
-    font-size: 2rem;
+    font-size: 6rem;
+    background-image: url(main.jpg);
+    background-repeat: no-repeat;
+    background-size: 270%;
+    
     
 
     
@@ -83,19 +87,20 @@ body{
     font-size: 32px;
     font-weight: bold;
     border-radius: 10%;
+    
     font-family: 'Grenze Gotisch', cursive;
 }
 .boxabout{
-    display: flex;
+  
     flex-direction: column;
     text-align:center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
-    font-size: 20px;
+    font-family: 'Patua One', cursive;
+    font-size: 22px;
     font-weight: bold;
-    width: 62%;
-    color: rgb(253, 250, 250);
+    width: 60%;
+    color: rgb(233, 22, 22);
 }
 .crsera{
     width: 100%;
@@ -169,7 +174,7 @@ span{
 }
 .pjct{
     font-size: 40px;
-    color: rgb(28, 218, 69); 
+    color: rgb(209, 241, 216); 
      justify-content: center ;
         text-align: center ;
 }
@@ -328,7 +333,8 @@ a:hover{
 @media  (max-width: 768px)
 {
 #welcome-section{
-    font-size: 17px;
+    font-size: 30px;
+    height: 100%;
   
     margin: 0px;
 }
@@ -474,6 +480,11 @@ a {
 
 @media (max-width:468px)
 {
+    #welcome-section{
+
+    height: 100%;
+    }
+
     .boxabout {
         font-size: 14px;
         font-weight: bold;
@@ -493,6 +504,10 @@ a {
 }
     @media (max-width: 360px) {
     
+        #welcome-section{
+
+            height: 100%;
+            }
 .boxabout {
     font-size: 12px;
     
@@ -502,8 +517,11 @@ a {
     font-size: 15px;
 }
 .stuamb {
-    font-size: 11px;
+    font-size: 15px;
     width: 100%;
+}
+.mycontact {
+    font-size: 16px;
 }
     
    }
@@ -511,7 +529,10 @@ a {
     .boxabout {
         font-size: 12px;
    }
+   #welcome-section{
 
+    height: 100%;
+    }
 
 }
 
@@ -529,6 +550,7 @@ a {
    
     #welcome-section{
         font-size: 40px;
+        height: 100%;
     }
     #survey {
         width: 31%;
