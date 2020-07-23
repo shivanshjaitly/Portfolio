@@ -490,6 +490,7 @@ a {
         margin: 2px auto;
         padding: 6px 11px;
     }
+}
     @media (max-width: 360px) {
     
 .boxabout {
@@ -512,16 +513,6 @@ a {
    }
 
 
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -533,51 +524,7 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (min-width: 768px)  and (max-width:991px)
+@media (min-width: 768px)  and (max-width:991px)
 {
    
     #welcome-section{
@@ -664,8 +611,4 @@ a {
   
    
   
-}  */
-/* @media  (min-width: 992px) 
-{
-    
-}
+} 
